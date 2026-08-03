@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.angular/
+coverage/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+apps/api/data/
+apps/web/public/
+.env
+.env.local
+.DS_Store
+_web_node_modules/

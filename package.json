@@ -1,0 +1,20 @@
+{
+  "name": "leaseledger",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:api": "cd apps/api && npm run build",
+    "build:web": "cd apps/web && npm run build",
+    "build": "npm run build:api && npm run build:web",
+    "start:api": "cd apps/api && npm run start:dev",
+    "start:web": "cd apps/web && npm run start",
+    "test:api": "cd apps/api && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  },
+  "description": "LeaseLedger - Property & Rental Management Platform"
+}
